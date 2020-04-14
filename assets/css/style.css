@@ -1,0 +1,255 @@
+body {
+    font-family: "avenir", arial, sans-serif;
+}
+/*------------------------------------------------------------------HEADER--------------*/
+header {
+    background: url("../img/headband.jpeg") center;
+    height: 400px;
+}
+#headMenu a {
+    color: aliceblue;
+    font-size: 30px;
+}
+#headMenu a:hover {
+    color: #449690;
+}
+/*------------------------------------------------------------------COMMUN--------------*/
+section h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+/*------------------------------------------------------------------PRESENTATION--------------*/
+#presentation {
+    font-size: 23px;
+}
+#identity li {
+    list-style: none;
+    padding-bottom: 4px;
+}
+#photoPresentation img {
+    width: 230px;
+    height: auto;
+    border-radius: 20px;
+}
+#photoPresentation {
+    margin-top: 40px;
+}
+@media (min-width: 992px) { 
+    #photoPresentation {
+        border-left: 3px solid gray;
+        margin-top: 0px;
+}
+}
+/*------------------------------------------------------------------PRESENTATION--------------*/
+#choix {
+    margin: 75px 0 50px 0;
+}
+@media (min-width: 992px) { 
+    #choix {
+        margin: 150px 0 100px 0;
+}
+}
+#choix h2 {
+    font-size: 50px;
+}
+#choix h2:hover {
+    color: #449690;
+}
+@media (max-width: 576px) {
+    #choix h2 { font-size: 40px; 
+}
+}
+/*------------------------------------------------------------------CONTAINER & COMMUN JS--------------*/
+#container {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.containerParty {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+}
+/*-----------------------------------------FORMATION----------------------------*/
+#formationContent {
+    z-index: 3;
+    background-color: white;
+
+}
+#formationContent p {
+    padding: 0px 40px 0px 40px;
+    margin-top: 150px;
+    font-size: 23px;
+}
+@media (min-width: 992px) { 
+    #formationContent p {
+        border-right: 3px solid gray;
+}
+#formationContent img{
+    padding-top: 150px;
+}
+}
+#formationContent img{
+    width: 390px;
+    margin-top: 150px;
+}
+/*-----------------------------------------EXPERIENCES----------------------------*/
+#experienceContent {
+    z-index: 2;
+    background-image: url(../img/texture.jpg);
+    background-size: cover;
+}
+#experiencedesc p {
+    font-size: 23px;
+    padding-top: 100px;
+    margin: 0px 50px 0px 50px;
+    color: white; 
+}
+@media (min-width: 992px) { 
+    #experiencedesc p {
+        font-size: 26px;
+        padding: 100px 60px 0 60px;
+        color: white; 
+    }
+}
+/*-----------------------------------------COMPETENCES----------------------------*/
+#competenceContent {
+    background-color: #BABCBA;
+    z-index: 1;
+}
+#loadingBar img {
+    margin: 20px 0 20px 0;
+    width: 105px;
+    height: 105px;
+}
+.progress-bar {
+    height: 20px;
+}
+#loadingBar {
+    margin: 100px 0 100px 0;
+}
+#competenceDesc p {
+    margin: 100px 30px 50px 30px;
+    font-size: 23px;
+}
+@media (min-width: 992px) { 
+    #competenceDesc p {
+        margin: 200px 30px 50px 30px;
+        border-right: 3px solid gray;
+        padding-right: 40px;
+}
+}
+/*-----------------------------------------PROJETS----------------------------*/
+#projetsDescription {
+    background: rgba(255,255,255,0.70);
+}
+#projetsDescription  h1 {
+    padding-top: 80px;
+}
+#projetsDescription p, #projetsDescription h4 {
+    font-size: 23px;
+    width: 300px;
+    margin: 0 auto;
+}
+#projetsDescription img{
+    width: 180px;
+    height: 180px;
+}
+#momento, #github {
+    margin-top: 30px;
+}
+#projetsDescription a {
+    text-decoration: none;
+    color: black;
+}
+#projetsDescription a:hover {
+    color: #449690;
+}
+#github {
+    padding-bottom: 80px;
+}
+/*-----------------------------------------FOOTER----------------------------*/
+footer {
+    height: 200px;
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+}
+#footMenu {
+    margin-top: 0px;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 60px;
+}
+#footMenu li {
+    display: inline-block;
+    margin: 5px;
+    color: black;
+}
+#footMenu a {
+    text-decoration: none;
+    color: black;
+}
+#footMenu a:hover {
+    color: #449690;
+}
+/*-----------------------------------------FORM----------------------------*/
+#form {
+    width: 100%;
+    height: 1080px;
+    list-style: none;
+}
+#formIntroduction {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+#formIntroduction img {
+    width: 128px;
+    height: 128px;
+}
+.identity {
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+}
+.identity li{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: center;
+}
+.identity input {
+    background: transparent;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 23px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#formPart2 {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+#formPart2 textarea {
+    border-radius: 20px;
+    background: transparent;
+    padding-left: 10px;
+}
+#formPart2 p {
+    opacity: 0.4;
+    margin: 2px 0 0 10px;
+    padding-left: 400px;
+}
+#formPart2 input{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#formPart2 input:hover {
+    background-color: #d30000;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <title>j.Tanguy - Me contacter</title>
+</head>
+<body>
+    <div id="form" class="container text-center">
+        <div class="row">
+            <h1 class="col-12">me contacter</h1>
+            <div id="formIntroduction" class="col-12">
+                <h2>Vous pouvez me retrouver sur:</h2>
+                <div id="formLinks">
+                    <a href="#" title="lien vers linkedin"><img alt="linkedinLogo" title="mon linkedin"
+                            src="assets/img/linkedin-icon.png"></a>
+                    <a href="https://github.com/julien-tanguy" title="lien vers github"><img alt="logoGithub"
+                            title="mon github" src="assets/img/logoGithub.png"></a>
+                </div>
+                <h2>Ou m'envoyer un email:</h2>
+            </div>
+            <form class="col-12">
+                <div class="identity">
+                    <li><label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Nom *" /></li>
+                    <li><label for="firstname"></label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Prénom *" /></li>
+                    <li><label for="mail"></label>
+                        <input type="email" name="mail" id="mail" placeholder="votre email *" /></li>
+                    <li><label for="phone"></label>
+                        <input type="tel" name="phone" id="phone" placeholder="votre n° de telephone" /></li>
+                </div>
+                <div id="formPart2">
+                    <label for="message"></label>
+                    <textarea type="text" name="message" id="message" placeholder="Votre message *" rows="15"
+                        cols="70"></textarea>
+                    <p>* espaces obligatoires</p>
+                    <input type="submit" name="envoyer" value="Envoyer" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
