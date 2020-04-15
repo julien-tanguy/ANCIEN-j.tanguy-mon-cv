@@ -10,8 +10,17 @@ header {
     color: aliceblue;
     font-size: 30px;
 }
-#headMenu a:hover {
+#headMenu .navbar-brand:first-of-type {
     color: #449690;
+    font-size: 40px;
+}
+#headMenu :hover {
+    color: #449690;
+}
+header h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    color: aliceblue;
 }
 /*------------------------------------------------------------------COMMUN--------------*/
 section h1 {
@@ -177,7 +186,7 @@ footer {
 }
 #footMenu {
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 25px;
     list-style: none;
     padding-top: 60px;
 }
@@ -192,6 +201,11 @@ footer {
 }
 #footMenu a:hover {
     color: #449690;
+}
+/*-----------------------------------------MODAL-IMG----------------------------*/
+.modal img {
+    width: 40px;
+    height: 40px;
 }
 /*-----------------------------------------FORM----------------------------*/
 #form {

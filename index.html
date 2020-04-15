@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <script src="assets/js/main.js"></script>
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     <title>j.Tanguy - mon cv nuérique</title>
 </head>
 <body>
     <header class="container-fluid">
-            <nav id="headMenu" class="navbar justify-content-end">
-                <a href="#choix" title="lien vers formation" class="navbar-brand">Formation</a>
-                <a href="#choix" title="liens vers expérience" class="navbar-brand">Expériences</a>
-                <a href="#choix" title="lien vers compétences" class="navbar-brand">Compétences</a>
-                <a href="#projets" title="lien vers projets" class="navbar-brand">Projets réalisés</a>
-                <a href="contactForm.html" title="lien vers contact" target="_blank" class="navbar-brand">Contact</a>
-            </nav>
-        </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark" id="headMenu">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Developpeur web</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#choix" title="lien vers formation" onclick="formationPremier()">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#choix" title="lien vers compétences" onclick="competencePremier()">Competences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#choix" title="liens vers expérience" onclick="experiencePremier()">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets" title="lien vers projets">Projets réalisés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#monModal">Contact</a><!-- Button trigger modal -->
+                    </li>
+                </ul>
+            </div>
+            <!-- Collapsible content -->
+        </nav>
+        <!--/.Navbar-->
     </header>
     <section id="presentation" class="container-fluid"><!---------------------------------------------------------------------PRESENTATION-->
         <div class="row">
@@ -206,8 +230,35 @@
             <li>Réalisé par J.Tanguy</li>
             <li>2020</li>
             <li><a href="#" title="lien vers haut de page">Revenir en haut de page</a></li>
-            <li><a href="contactForm.html" title="lien vers contact" target="_blank">Contact</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#monModal">Contact</a></li>
         </ul>
     </footer>
+    
+    <div class="modal fade" id="monModal" tabindex="-1" role="dialog" aria-labelledby="monModalLabel"aria-hidden="true"><!---------------------------------------------------------------------MODAL-->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">contacter moi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Retrouver moi sur <a href="#" title="lien vers linkedin"><img alt="linkedinLogo" title="mon linkedin"
+            src="assets/img/linkedin-icon.png"></a> ou <a href="https://github.com/julien-tanguy" title="lien vers github"><img alt="logoGithub"
+                title="mon github" src="assets/img/logoGithub-petit.png"></a></p>
+                <p>Envoyer moi un email <a href="mailto:j.tanguy24@gmail.com" title="lien vers mon mail"><img alt="logomail"
+                    title="mon mail" src="assets/img/mail.png"></a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">X fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
