@@ -44,7 +44,7 @@ section h1 {
 #photoPresentation {
     margin-top: 40px;
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
     #photoPresentation {
         border-left: 3px solid gray;
         margin-top: 0px;
@@ -54,7 +54,7 @@ section h1 {
 #choix {
     margin: 75px 0 50px 0;
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
     #choix {
         margin: 150px 0 100px 0;
 }
@@ -65,7 +65,7 @@ section h1 {
 #choix h2:hover {
     color: #449690;
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     #choix h2 { font-size: 40px; 
 }
 }
@@ -91,7 +91,7 @@ section h1 {
     margin-top: 150px;
     font-size: 23px;
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
     #formationContent p {
         border-right: 3px solid gray;
 }
@@ -115,7 +115,7 @@ section h1 {
     margin: 0px 50px 0px 50px;
     color: white; 
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
     #experiencedesc p {
         font-size: 26px;
         padding: 100px 60px 0 60px;
@@ -142,7 +142,7 @@ section h1 {
     margin: 100px 30px 50px 30px;
     font-size: 23px;
 }
-@media (min-width: 992px) { 
+@media screen and (min-width: 992px) { 
     #competenceDesc p {
         margin: 200px 30px 50px 30px;
         border-right: 3px solid gray;
