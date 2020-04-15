@@ -22,6 +22,18 @@ header h1 {
     margin-top: 80px;
     color: aliceblue;
 }
+@media screen and (max-width: 992px) {
+    #headMenu {
+        position: fixed;
+        width: 97%;
+        background-color: black;
+        opacity: 0.9;
+        z-index: 9;
+    }
+    #headMenu button {
+        margin-right: 10px;
+    }
+}
 /*------------------------------------------------------------------COMMUN--------------*/
 section h1 {
     font-size: 60px;
