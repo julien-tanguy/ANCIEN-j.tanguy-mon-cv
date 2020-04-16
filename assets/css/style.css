@@ -83,9 +83,11 @@ section h1 {
     background-size: cover;
 }
 #experiencedesc p {
-    padding-top: 100px;
     margin: 0px 50px 0px 50px;
     color: white; 
+}
+#experiencedesc p:first-of-type {
+    padding-top: 100px;
 }
 /*-----------------------------------------COMPETENCES----------------------------*/
 #competenceContent {
