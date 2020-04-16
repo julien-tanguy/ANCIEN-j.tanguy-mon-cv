@@ -65,7 +65,6 @@ section h1 {
 }
 /*-----------------------------------------FORMATION----------------------------*/
 #formationContent {
-    z-index: 3;
     background-color: white;
 }
 #formationContent p {
@@ -78,8 +77,7 @@ section h1 {
 }
 /*-----------------------------------------EXPERIENCES----------------------------*/
 #experienceContent {
-    z-index: 2;
-    background-image: url(../img/texture.jpg);
+    background-image: url(../img/metal.jpg);
     background-size: cover;
 }
 #experiencedesc p {
@@ -91,8 +89,8 @@ section h1 {
 }
 /*-----------------------------------------COMPETENCES----------------------------*/
 #competenceContent {
-    background-color: #BABCBA;
-    z-index: 1;
+    background-image: url(../img/metal.jpg);
+    background-size: cover;
 }
 #loadingBar img {
     margin: 20px 0 20px 0;
