@@ -118,9 +118,11 @@ section h1 {
     width: 300px;
     margin: 0 auto;
 }
-#projetsDescription img{
+#projetsDescription img {
     width: 180px;
     height: 180px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 #momento, #github {
     margin-top: 30px;
