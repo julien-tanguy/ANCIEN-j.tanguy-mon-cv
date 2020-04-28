@@ -172,7 +172,7 @@ footer {
 .modal .btn {
     font-size: 25px;
 }
-/*-----------------------------------------MODAL-IMG----------------------------*/
+/*-----------------------------------------MEDIA---------------------------*/
 @media screen and (min-width: 992px) { 
     #competenceDesc p {
         margin: 200px 30px 50px 30px;
@@ -219,4 +219,32 @@ footer {
     #headMenu button {
         margin-right: 10px;
     }
+}
+@media screen and (max-width: 650px) { 
+    header {
+        background: url("../img/footer.jpg") center;
+        height: 70px;
+        }
+        #headMenu a {
+            font-size: 30px;
+        }
+        section h1 {
+            font-size: 45px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        p, #identity li {
+            font-size: 18px;
+        }
+       
+        #footMenu {
+            margin-top: 0px;
+            font-size: 20px;
+            list-style: none;
+            padding-top: 60px;
+        }
+        #formationContent img{
+            width: 350px;
+            margin-top: 150px;
+        }
 }

@@ -20,6 +20,3 @@ function formationPremier() {
     document.getElementById("competenceContent").style.display = "none";
 }
 
-/*document.getElementById("competenceContent").style.zIndex = "1";
-    document.getElementById("experienceContent").style.zIndex = "2";
-    document.getElementById("formationContent").style.zIndex = "3";*/
